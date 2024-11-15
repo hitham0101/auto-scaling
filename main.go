@@ -61,6 +61,6 @@ func cpuUsageHandler(w http.ResponseWriter, r *http.Request) {
 
 func main() {
 	http.HandleFunc("/cpu-usage", cpuUsageHandler)
-	log.Println("Server is running on http://localhost:8080")
+	log.Println("yo , Server is running on http://localhost:8080")
 	log.Fatal(http.ListenAndServe(":8080", nil))
 }
