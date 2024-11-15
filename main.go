@@ -8,7 +8,7 @@ import (
 	"net/http"
 )
 
-const prometheusURL = "http://http://195.201.239.63/:9090/api/v1/query"
+const prometheusURL = "http://195.201.239.63:9090/api/v1/query"
 
 // PrometheusResponse defines the structure of Prometheus query response
 type PrometheusResponse struct {
